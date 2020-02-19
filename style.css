@@ -1,0 +1,16 @@
+html, body {
+  padding: 0px;
+  margin: 0px;
+  height: 100%;
+  background: #9f9f9f;
+}
+
+.page-area {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page-area>object {
+  width: 400px;
+}

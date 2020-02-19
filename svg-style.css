@@ -1,0 +1,15 @@
+.pedal {
+  animation-name: drift;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes drift {
+  from {
+    transform: translate(0px, 0px);
+  }
+  to {
+    transform: translate(128px, 150px);
+  }
+}
